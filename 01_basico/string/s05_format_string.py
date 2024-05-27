@@ -10,7 +10,7 @@ print(texto)
 
 preco = 29
 texto = f'O preço é {preco} reais'
-print(texto)
+print(texto.upper())
 
 # Um modificador é incluído adicionando dois pontos ':' seguido por um tipo de formatação legal, como '.2f' que significa número de ponto fixo com 2 casas decimais
 print(f'O preço é {preco:.2f} reais')
@@ -20,3 +20,6 @@ print(f'O preço é {29 + 50}')
 
 texto = 'Eu tenho {} anos'
 print(texto.format(idade))
+
+fruta = 'banana'
+print(f'minha fruta favorita é {fruta.upper()}')
